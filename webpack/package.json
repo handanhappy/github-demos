@@ -4,7 +4,7 @@
   "description": "mkdir webpack-demo && cd webpack-demo\r tnpm init -y\r tnpm install --save lodash\r tnpm install -g npx\r npx webpack\r npx webpack src/index.js dist/bundle.js\r npx webpack\r npx webpack --config webpack.config.js\r npm run build\r tnpm install --save-dev style-loader css-loader\r npm run build\r npm install --save-dev file-loader\r npm install --save-dev webpack-dev-server\r npm start",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -12,8 +12,8 @@
   "dependencies": {
     "lodash": "^4.17.4"
   },
-  "scripts": {
-    "build": "webpack"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.19.1"
+  }
 }

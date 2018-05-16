@@ -25,3 +25,6 @@ git reset --files
 
 git checkout -b branchname
 
+git status
+git add .
+git commit -m "..."
